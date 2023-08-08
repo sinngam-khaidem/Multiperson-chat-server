@@ -9,4 +9,14 @@ The codes were complied on a LINUX system usig GNU's gcc compiler. If you are on
 ## 1. showip.c
 Simply compile the file using ```gcc showip.c```.<br/>
 Run using ```./a.out www.example.net```
-##2. gettingHostName.c
+## 2. gettingHostName.c
+Compile using ```gcc gettingHostName.c```.<br/>
+Run using ```./a.out```.<br/>
+This will return the name of your system which you can use during telnet.
+## 3. pollserver.c
+Run it on one window<br/>
+```gcc pollserver.c```<br/>
+```./a.out```<br/>
+Then, ```telnet localhost 9034``` from a number of other terminal windows.<br/>
+# References
+<a>https://beej.us/guide/bgnet/pdf/bgnet_a4_c_1.pdf
